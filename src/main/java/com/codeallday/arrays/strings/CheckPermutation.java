@@ -26,6 +26,7 @@ public class CheckPermutation {
         while (iterator.hasNext()) {
             System.out.println("here");
             count++;
+            iterator.next();
         }
 
         System.out.println("Number of Elements in the list " + count);
