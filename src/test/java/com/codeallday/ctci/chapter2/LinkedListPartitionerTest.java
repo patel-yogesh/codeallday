@@ -9,7 +9,7 @@ public class LinkedListPartitionerTest {
                 new LinkedListPartitioner(3,2,5,4,7,1,9,10);
 
         linkedListPartitioner.printList();
-        linkedListPartitioner.partitionLinkedList(2);
+        linkedListPartitioner.partitionLinkedList(1);
         linkedListPartitioner.printList();
     }
 }

@@ -5,7 +5,6 @@ import org.junit.Test;
 public class StringCompressorTest {
     @Test
     public void testStringCompressor() {
-        System.out.println(StringCompressor.compressString("abcd"));
-        System.out.println(StringCompressor.compressString("aabccccdd"));
+        System.out.println(StringCompressor.compressString("aaaaaaabbccccdddd"));
     }
 }
